@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>BLOOD GROUP LIST PAZHUR</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>BLOOD GROUP LIST PAZHUR</h1>
+
+<div class="grid">
+
+<div class="group" onclick="openGroup('A+')">
+<img src="blood.png">
+<div class="blood-text">A+</div>
+</div>
+
+<div class="group" onclick="openGroup('A-')">
+<img src="blood.png">
+<div class="blood-text">A-</div>
+</div>
+
+<div class="group" onclick="openGroup('B+')">
+<img src="blood.png">
+<div class="blood-text">B+</div>
+</div>
+
+<div class="group" onclick="openGroup('B-')">
+<img src="blood.png">
+<div class="blood-text">B-</div>
+</div>
+
+<div class="group" onclick="openGroup('AB+')">
+<img src="blood.png">
+<div class="blood-text">AB+</div>
+</div>
+
+<div class="group" onclick="openGroup('AB-')">
+<img src="blood.png">
+<div class="blood-text">AB-</div>
+</div>
+
+<div class="group" onclick="openGroup('O+')">
+<img src="blood.png">
+<div class="blood-text">O+</div>
+</div>
+
+<div class="group" onclick="openGroup('O-')">
+<img src="blood.png">
+<div class="blood-text">O-</div>
+</div>
+
+</div>
+
+<br>
+
+<a href="add.html">
+<button class="add-btn">Add New Donor</button>
+</a>
+<!-- FIREBASE CDN -->
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

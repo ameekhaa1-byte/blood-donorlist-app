@@ -1,0 +1,67 @@
+/* Page style */
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.group {
+    position: relative;
+    cursor: pointer;
+}
+
+.group img {
+    width: 120px;
+}
+
+/* TEXT CENTER ON IMAGE */
+.blood-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.card {
+    background-color: #f2f2f2;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.card {
+    position: relative;
+    background-color: #f2f2f2;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    color: red;
+    font-size: 18px;
+    cursor: pointer;
+}
